@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://192.168.56.1:3001/"
+  baseURL: "https://nodejs-course-api.herokuapp.com/"
 });
 
 export default api;
